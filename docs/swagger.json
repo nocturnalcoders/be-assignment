@@ -1,0 +1,21 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/tags": {
+            "post": {
+                "description": "Save tags data in Db.",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "tags"
+                ],
+                "summary": "Create tags",
+                "responses": {}
+            }
+        }
+    }
+}

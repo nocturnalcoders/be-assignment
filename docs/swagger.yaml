@@ -1,0 +1,13 @@
+info:
+  contact: {}
+paths:
+  /tags:
+    post:
+      description: Save tags data in Db.
+      produces:
+      - application/json
+      responses: {}
+      summary: Create tags
+      tags:
+      - tags
+swagger: "2.0"
